@@ -6,6 +6,63 @@
     margin: 0;
 }
 
+/* ---> https://www.color-hex.com/color-palettes <--- Ótimo site de paletas de cores */
+.normal {
+    background-color: #d6bdc0;
+}
+.grass {
+    background-color: #97c1a9;
+}
+.fire {
+    background-color: #cc3300;
+}
+.water {
+    background-color: #469dcd;
+}
+.electric {
+    background-color: #ffcd15;
+}
+.ice {
+    background-color: #d0f2ff;
+}
+.ground {
+    background-color: #d8c020;
+}
+.flying {
+    background-color: #aeb5df;
+}
+.poison {
+    background-color: #6f2770;
+}
+.fighting {
+    background-color: #bd3c5a;
+}
+.psychic {
+    background-color: #670e94;
+}
+.dark {
+    background-color: #584b3e;
+}
+.rock {
+    background-color: #e3a960;
+}
+.bug {
+    background-color: #b9c574;
+}
+.ghost {
+    background-color: #bfbfbf;
+}
+.steel {
+    background-color: #5b5c97;
+}
+.dragon {
+    background-color: #be4a07;
+}
+.fairy {
+    background-color: #ffcdf7;
+}
+
+
 .pokemon {
     display: flex;
     flex-direction: column;
@@ -26,6 +83,7 @@
 .pokemon .name {
     color: rgb(2, 68, 68);
     margin: 0.25 0rem;
+    text-transform: capitalize;
 }
 
 .pokemon .detail {
@@ -44,7 +102,6 @@
 }
 
 .pokemon .detail .types .type {
-    background-color: rgba(18, 116, 83, 0.555);
     color: rgb(255, 255, 255);
     margin: 0.25rem 0rem;
     padding: 0.25rem 0.5rem;
@@ -52,6 +109,8 @@
     font-size: 0.625rem;
     font-family: "Love Ya Like A Sister", sans-serif;
     box-sizing: border-box;
+    filter: brightness(0.9);
+    text-align: center;
 }
 
 .pokemon .detail img {
